@@ -1,0 +1,27 @@
+label,precision,recall,f1-score,support
+emotion.anger,0.0,0.0,0.0,12.0
+emotion.anticipation,0.0,0.0,0.0,6.0
+emotion.disgust,0.62,0.29,0.39,28.0
+emotion.fear,0.0,0.0,0.0,2.0
+emotion.joy,0.61,0.73,0.67,56.0
+emotion.sadness,0.0,0.0,0.0,14.0
+emotion.surprise,0.49,0.45,0.47,40.0
+emotion.trust,0.0,0.0,0.0,7.0
+emotion.weighted,0.43,0.41,0.41,165.0
+relation.complementary,0.98,1.0,0.99,104.0
+relation.decorative,0.0,0.0,0.0,13.0
+relation.illustrative,0.67,0.5,0.57,48.0
+relation.image only,0.0,0.0,0.0,17.0
+relation.opposite,0.0,0.0,0.0,2.0
+relation.weighted,0.73,0.7,0.71,184.0
+stimulus.ad,0.0,0.0,0.0,4.0
+stimulus.animal,0.78,0.58,0.67,12.0
+stimulus.art/drawing,0.73,0.44,0.55,18.0
+stimulus.event/situation,0.0,0.0,0.0,15.0
+stimulus.food,0.83,0.62,0.71,8.0
+stimulus.meme,0.75,0.33,0.46,9.0
+stimulus.object,0.6,0.39,0.47,23.0
+stimulus.person,0.82,0.77,0.79,30.0
+stimulus.place,0.0,0.0,0.0,5.0
+stimulus.screenshot,0.79,0.82,0.81,51.0
+stimulus.weighted,0.66,0.55,0.59,175.0
