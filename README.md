@@ -1,2 +1,4 @@
-# multimodal_emotion_analysis
-Master thesis project on multimodal emotion analysis on social media.
+## Multimodal emotion analysis on social media using (master thesis project).
+
+# Datasets
+here is datasets info
