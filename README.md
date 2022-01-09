@@ -9,3 +9,4 @@ The dataset is to be released after the paper has been published, and can be fou
 The dataset consists of 1061 multimodal social media posts collected from Reddit and annotated for emotions, text-image relations, and emotion stimuli, using Amazon Mechanical Turk. The exact annotation procedure is described in the paper.
 
 ## Install
+This project uses 
