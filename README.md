@@ -9,4 +9,13 @@ The dataset is to be released after the paper has been published, and can be fou
 The dataset consists of 1061 multimodal social media posts collected from Reddit and annotated for emotions, text-image relations, and emotion stimuli, using Amazon Mechanical Turk. The exact annotation procedure is described in the paper.
 
 ## Install
-This project uses 
+This project uses [torch](https://pytorch.org/get-started/locally/), [transformers](https://huggingface.co/docs/transformers/index), [PIL](https://pillow.readthedocs.io/en/stable/index.html), [sklearn](https://pypi.org/project/scikit-learn/)
+
+```
+$ pip install torch torchvision
+$ pip install transformers
+$ python -m pip install --upgrade Pillow
+$ pip install -U scikit-learn
+$ 
+
+```
