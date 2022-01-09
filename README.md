@@ -1,4 +1,4 @@
 # Multimodal emotion analysis on social media using (master thesis project).
 
 ## Datasets
-Upon publishing the paper, the datasets will be
+The dataset is to be released after publishing the paper and can be found in .data .
