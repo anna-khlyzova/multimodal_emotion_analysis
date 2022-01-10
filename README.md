@@ -9,7 +9,9 @@
 This project aims to analyze emotions in social media posts. We collected and annotate multimodal posts (text + image) from Reddit and annotate them for emotions, text-image relations (e.g. complementary), and emotion stimuli (e.g. animal). We then created computational models using RoBERTa from Hugging Face for the text modality, and ResNet50 from torchvision for the image modality. In total, we implemented 5 models in the multitask setting (all three labels are predicted at the same time):
 * text-based model (pretrained RoBERTa model)
 * image-based model (pretrained ResNet50 model with frozen layers)
-* 
+* early fusion model (tokenized text and image transformed to tensor are joined in the early stage and passed through several linear layers)
+* late fusion model (outputs of the trained text-based and image-based models are joined and passed through the final layers, without updating the weights of the simgle-modality models)
+* model-based model (final hidden layers of the text-based and image-based models are joined and passed through the final layers, updating the weights of the single-modality models)
 
 ## Dataset
 The dataset is to be released after the paper has been published, and can be found in [data](data/). Until the dataset is published, we created mock files to reflect the structure of it. The multilabel dataset is stored in .csv format and split into training and test datasets (90/10). Each .csv file has *image*, *text* columns, as well as columns for labels (each label is prefixed with either *emotion*, *relation*, or *stimulus*). The images are stored in [images](data/images).
