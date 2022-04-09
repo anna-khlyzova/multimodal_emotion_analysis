@@ -10,7 +10,7 @@ This project aims to analyze emotions in social media posts. We collected multim
 * text-based model (pretrained RoBERTa model)
 * image-based model (pretrained ResNet50 model with frozen layers)
 * early fusion model (tokenized text and image transformed to tensor are joined in the early stage and passed through several linear layers)
-* late fusion model (outputs of the trained text-based and image-based models are joined and passed through the final layers, without updating the weights of the simgle-modality models)
+* late fusion model (outputs of the trained text-based and image-based models are joined and passed through the a small neural network, without updating the weights of the text-based and image-based models)
 * model-based model (final hidden layers of the text-based and image-based models are joined and passed through the a small neural network on top, updating the weights of both text-based and image-based models)
 
 ## Dataset
