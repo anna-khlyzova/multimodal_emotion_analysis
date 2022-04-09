@@ -4,6 +4,7 @@
 * [Description](#Description)
 * [Dataset](#Dataset)
 * [Install](#Install)
+* [Run](#Run)
 
 ## Description
 This repository contains the data and source code for [this paper](https://arxiv.org/abs/2202.07427) on emotion analysis of social media posts. We collected multimodal posts (text + image) from Reddit and annotated them for emotions, text-image relations (e.g. complementary), and emotion stimuli (e.g. animal). We then created computational models using RoBERTa from Hugging Face for the text modality, and ResNet50 from torchvision for the image modality. In total, we implemented 5 models in the multitask setting (all three labels are predicted at the same time):
@@ -31,3 +32,13 @@ $ pip install html
 $ pip install emoji
 $ pip install argparse
 ```
+
+## Run
+To run the code, use the following commands depending on the model:
+  python train_model.py data text
+  python train_model.py data image
+  python train_model.py data early
+  python train_model.py data late
+  python train_model.py data model
+
+The last two arguments in the above commands are the data folder and the model. Please change them accordingly if you move files around.
