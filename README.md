@@ -35,10 +35,12 @@ $ pip install argparse
 
 ## Run
 To run the code, use the following commands depending on the model:
-  python train_model.py data text
-  python train_model.py data image
-  python train_model.py data early
-  python train_model.py data late
-  python train_model.py data model
+```
+$ python train_model.py data text
+$ python train_model.py data image
+$ python train_model.py data early
+$ python train_model.py data late
+$ python train_model.py data model
+```
 
 The last two arguments in the above commands are the data folder and the model. Please change them accordingly if you move files around.
