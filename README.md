@@ -15,7 +15,7 @@ This repository contains the data and source code for [this paper](https://arxiv
 
 ## Dataset
 The dataset can be found in [data](data/). The multilabel dataset is stored in .csv format and split into training and test sets (90/10). Each .csv file has *image*, *text* columns, as well as columns for labels (each label is prefixed with either *emotion*, *relation*, or *stimulus*). We do not publish the images we collected from Reddit due to the rights, but an example of an image can be found in [images](data/images).
-The dataset consists of 1061 multimodal social media posts collected from Reddit and annotated for emotions, text-image relations, and emotion stimuli, using Amazon Mechanical Turk. The exact annotation procedure is described in the paper.
+The dataset consists of 1054 multimodal social media posts collected from Reddit and annotated for emotions, text-image relations, and emotion stimuli, using Amazon Mechanical Turk. The exact annotation procedure is described in the paper.
 
 ## Install
 This project uses [torch](https://pytorch.org/get-started/locally/), [transformers](https://huggingface.co/docs/transformers/index), [PIL](https://pillow.readthedocs.io/en/stable/index.html), [sklearn](https://pypi.org/project/scikit-learn/), [pandas](https://pypi.org/project/pandas/), [numpy](https://numpy.org), [html](https://pypi.org/project/html/), [emoji](https://pypi.org/project/emoji/), and [argparse](https://pypi.org/project/argparse/). If you do not have them installed, please use the following commands:
