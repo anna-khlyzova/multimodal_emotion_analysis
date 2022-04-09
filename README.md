@@ -6,7 +6,7 @@
 * [Install](#Install)
 
 ## Description
-This project aims to analyze emotions in social media posts. We collected and annotate multimodal posts (text + image) from Reddit and annotate them for emotions, text-image relations (e.g. complementary), and emotion stimuli (e.g. animal). We then created computational models using RoBERTa from Hugging Face for the text modality, and ResNet50 from torchvision for the image modality. In total, we implemented 5 models in the multitask setting (all three labels are predicted at the same time):
+This project aims to analyze emotions in social media posts. We collected multimodal posts (text + image) from Reddit and annotated them for emotions, text-image relations (e.g. complementary), and emotion stimuli (e.g. animal). We then created computational models using RoBERTa from Hugging Face for the text modality, and ResNet50 from torchvision for the image modality. In total, we implemented 5 models in the multitask setting (all three labels are predicted at the same time):
 * text-based model (pretrained RoBERTa model)
 * image-based model (pretrained ResNet50 model with frozen layers)
 * early fusion model (tokenized text and image transformed to tensor are joined in the early stage and passed through several linear layers)
